@@ -25,21 +25,21 @@ function promptUser() {
         },
         {
             type: "input",
-            name: "usage-info",
+            name: "usageInfo",
             message: "What is the usage information about your project"
         },
         {
             type: "input",
-            name: "contribution-guidelines",
+            name: "contributionGuidelines",
             message: "Please enter your contribution guidelines"
         },
         {
             type: "input",
-            name: "test-instructions",
+            name: "testInstructions",
             message: "What are the test instructions for your project"
         },
         {
-            type: "checkbox",
+            type: "list",
             message: "Which license type would you like to use",
             name: "license",
             choices: [
@@ -52,12 +52,12 @@ function promptUser() {
         },
         {
             type: "input",
-            name: "github-username",
+            name: "githubUsername",
             message: "Please Enter in your GitHub username"
         },
         {
             type: "input",
-            name: "email-address",
+            name: "emailAddress",
             message: "What is your contact Email?"
         },
     ])
