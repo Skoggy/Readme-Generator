@@ -11,9 +11,7 @@ const open = ""
 function generateMarkdown(data) {
   return `# ${data.title}
  
-
-
-  ## Choice badge 
+  ## License
   ${data.license}
   
   ## Description
@@ -21,23 +19,24 @@ function generateMarkdown(data) {
 
   ## Table of Contents
   1. [Installation](#Installation)
-  2. [Usage Info]( #Usage Info)
-  3. [Contributing Guidelines](#Contributing Guidelines)
-  4. [Test Instructions](#Test Instructions)
+  2. [Usage Info](#UsageInfo)
+  3. [Contributing Guidelines](#ContributingGuidelines)
+  4. [Test Instructions](#TestInstructions)
   5. [Questions](#Questions)
 
 
   ## Installation Instructions
   ${data.installation}
+
   ## Usage Information
   ${data.usageInfo}
+
   ## Contributing Guidelines
   ${data.contributionGuidelines}
+
   ## Test Instructions
   ${data.testInstructions}
   
-
-
 ## Questions
   [Link To Github](https://github.com/${data.githubUsername})
   [Link To Email](https://github.com/${data.emailAddress})
