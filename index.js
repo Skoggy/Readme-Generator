@@ -44,10 +44,11 @@ function promptUser() {
             name: "license",
             choices: [
                 "Apache license 2.0",
-                "Academic Free License v3.0",
+                "CC0 1.0 Universal Public Domain Dedication",
                 "GNU General Public License v3.0",
                 "MIT",
-                "Open Software License 3.0"
+                "The Unlicense",
+                "Boost Software License"
             ]
         },
         {
@@ -66,7 +67,7 @@ function promptUser() {
 var generateMarkdown = require('./utils/generateMarkdown');
 
 async function init() {
-    console.log("its working")
+    console.log("Please answer the following questions to generate your Readme")
     try {
         const data = await promptUser();
 

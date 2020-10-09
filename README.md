@@ -1,10 +1,10 @@
-# Skoggy
+# Readme generator
  
   ## License
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
   
   ## Description
-  SKoggy
+  It generates a readme after receiving prompts
 
   ## Table of Contents
   1. [Installation](#Installation)
@@ -15,18 +15,18 @@
 
 
   ## Installation Instructions
-  Skoggy
+  You need npm inquierer FS and util
 
   ## Usage Information
-  Skoggy
+  very simple to use, you just answer the questions and it fills it all out for you including adding headers
 
   ## Contributing Guidelines
-  SKoggy
+  anyone can contribute or copy and use, you just have to attribute to me and share alike in kind
 
   ## Test Instructions
-  Skoggy
+  none
   
 ## Questions
   Any questions can be sent to me at my GitHub or Email.
-  [Link To Github](https://github.com/Skoggy)
-  [Link To Email](https://github.com/chris.skogstad1@gmail.com)
+  ###### [Link To Github](https://github.com/Skoggy)
+  ###### [Link To Email](https://github.com/chris.skogstad1@gmail.com)
